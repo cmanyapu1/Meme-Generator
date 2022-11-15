@@ -1,0 +1,49 @@
+#top-text {
+  position: relative;
+  top: -400px;
+  left: 80px;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: white;
+  font-family: impact;
+  -webkit-text-stroke: 2px black;
+}
+
+#bottom-text {
+  position: relative;
+  bottom: 100px;
+  left: 80px;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: white;
+  font-family: impact;
+  -webkit-text-stroke: 2px black;
+}
+
+#removebutton {
+  position: relative;
+  left: 0px;
+  top: -500px;
+  width: 400px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
+  font-size: 5em;
+  /* visibility: hidden; */
+}
+
+#removebutton:hover {
+  /* visibility: visible; */
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 1);
+}
+
+#meme-image {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.meme-container {
+  max-height: 500px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Meme Generator Exercise</title>
+    <link rel="stylesheet" href="memegenerator.css" />
+  </head>
+  <body>
+    <h1>Meme Generator</h1>
+    <h2>Fill out the form to create memes!</h2>
+
+    <form action="#" id="NewMemeForm">
+      <div>
+        <label for="URL"> Image URL: </label>
+        <input type="URL" name="URL" id="URL" autofocus />
+      </div>
+      <div>
+        <label for="TopText"> Text On Top: </label>
+        <input type="text" name="TopText" id="TopText" autofocus />
+      </div>
+      <div>
+        <label for="BottomText"> Text On Bottom: </label>
+        <input type="text" name="BottomText" id="BottomText" autofocus />
+      </div>
+      <div>
+        <input type="submit" value="Add Meme" id="submit" />
+      </div>
+    </form>
+    <br>
+    <div id="MemeList"></div>
+    <script src="Meme Generator.js"></script>
+  </body>
+</html>
